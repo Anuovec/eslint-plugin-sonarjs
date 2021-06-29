@@ -23,6 +23,7 @@ Rules in this category aim to find places in code which have a high chance of be
 Code Smells, or maintainability issues, are raised for places of code which might be costly to change in the future. These rules also help to keep the high code quality and readability. And finally some rules report issues on different suspicious code patters.
 
 * Cognitive Complexity of functions should not be too high ([`cognitive-complexity`])
+* "if ... else if" constructs should end with "else" clauses ([`elseif-without-else`])
 * "switch" statements should not have too many "case" clauses ([`max-switch-cases`])
 * Collapsible "if" statements should be merged ([`no-collapsible-if`])
 * Collection sizes and array length comparisons should make sense ([`no-collection-size-mischeck`])
@@ -42,6 +43,7 @@ Code Smells, or maintainability issues, are raised for places of code which migh
 * A "while" loop should be used instead of a "for" loop ([`prefer-while`]) (:wrench: *fixable*)
 
 [`cognitive-complexity`]: ./docs/rules/cognitive-complexity.md
+[`elseif-without-else`]: ./docs/rules/elseif-without-else.md
 [`max-switch-cases`]: ./docs/rules/max-switch-cases.md
 [`no-all-duplicated-branches`]: ./docs/rules/no-all-duplicated-branches.md
 [`no-collapsible-if`]: ./docs/rules/no-collapsible-if.md

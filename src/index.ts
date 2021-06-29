@@ -21,6 +21,7 @@ import { TSESLint } from '@typescript-eslint/experimental-utils';
 
 const sonarjsRules: [string, TSESLint.Linter.RuleLevel][] = [
   ['cognitive-complexity', 'error'],
+  ['elseif-without-else', 'error'],
   ['max-switch-cases', 'error'],
   ['no-all-duplicated-branches', 'error'],
   ['no-collapsible-if', 'error'],
